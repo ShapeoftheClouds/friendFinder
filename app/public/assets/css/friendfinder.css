@@ -1,0 +1,19 @@
+#ff {
+  width: 80px;
+  height: 70px;
+  float: left;
+}
+
+h1 {
+  color: #4d4d54;
+}
+
+.btn-primary.active {
+  margin-top: 20px;
+  background-color: teal;
+  border-color: teal;
+}
+
+.glyphicons-glyphicons-notes {
+  @icon-font
+}
