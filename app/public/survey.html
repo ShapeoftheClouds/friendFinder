@@ -8,27 +8,180 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/friendfinder.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/survey.css">
 
   </head>
   <body>
     <div class="container">
-      <h4>Survey Questions <span class="label label-default"></span></h4>
-      <h5>About You <span class="label label-default"></span></h5>
-      <h6>Name (Required) <span class="label label-default"></span></h6>
-      <h4>Link to Photo (Required) <span class="label label-default"></span></h4>
-      <h4>Question 1 <span class="label label-default"></span></h4>
-      <h4>Question 2 <span class="label label-default"></span></h4>
-      <h4>Question 3 <span class="label label-default"></span></h4>
-      <h4>Question 4 <span class="label label-default"></span></h4>
-      <h4>Question 5 <span class="label label-default"></span></h4>
-      <h4>Question 6 <span class="label label-default"></span></h4>
-      <h4>Question 7 <span class="label label-default"></span></h4>
-      <h4>Question 8 <span class="label label-default"></span></h4>
-      <h4>Question 9 <span class="label label-default"></span></h4>
-      <h4>Question 10 <span class="label label-default"></span></h4>
+      <h2>Survey Questions <span class="label label-default"></span></h2>
 
-      <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
+      <hr>
+
+      <h5>About You <span class="label label-default"></span></h5>
+      <form>
+        <div class="form-group">
+          <label for="formGroupExampleInput">Name (Required)</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Link to Photo (Required)</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Link to Photo">
+        </div>
+      </form>
+
+      <hr>
+
+      <div class="column">
+        <h5>Question 1 <span class="label label-default"></span></h5>
+        <p>I see myself as extraverted, enthusiastic.<span class="label label-default"></span></p>
+        <form class="form-inline">
+          <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
+          <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+            <option selected>Choose...</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="3">4</option>
+            <option value="3">5 (Strongly Agree)</option>
+          </select>
+      </div>
+
+      <div class="column">
+        <h5>Question 2 <span class="label label-default"></span></h5>
+        <p>I see myself as open to new experiences, complex.<span class="label label-default"></span></p>
+        <form class="form-inline">
+          <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
+          <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+            <option selected>Choose...</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+
+        <div class="column">
+          <h5>Question 3 <span class="label label-default"></span></h5>
+          <p>I see myself as reserved, quiet.<span class="label label-default"></span></p>
+          <form class="form-inline">
+            <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
+            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+              <option selected>Choose...</option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+          </div>
+
+          <div class="column">
+            <h5>Question 4 <span class="label label-default"></span></h5>
+            <p>I enjoy meeting new people.<span class="label label-default"></span></p>
+            <form class="form-inline">
+              <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
+              <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+
+            <div class="column">
+              <h5>Question 5 <span class="label label-default"></span></h5>
+              <p>I have highly original ideas.<span class="label label-default"></span></p>
+              <form class="form-inline">
+                <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                  <option selected>Choose...</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+                </select>
+              </div>
+
+              <div class="column">
+                <h5>Question 6 <span class="label label-default"></span></h5>
+                <p>I believe in the importance of art.<span class="label label-default"></span></p>
+                <form class="form-inline">
+                  <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
+                  <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                    <option selected>Choose...</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                  </select>
+                </div>
+
+                <div class="column">
+                  <h5>Question 7 <span class="label label-default"></span></h5>
+                  <p>I experience my emotions intensely.<span class="label label-default"></span></p>
+                  <form class="form-inline">
+                    <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
+                    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                      <option selected>Choose...</option>
+                      <option value="1">1 (Strongly Disagree)</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                  </div>
+
+                  <div class="column">
+                    <h5>Question 8 <span class="label label-default"></span></h5>
+                    <p>I like to solve complex problems.<span class="label label-default"></span></p>
+                    <form class="form-inline">
+                      <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
+                      <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                        <option selected>Choose...</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                      </select>
+                    </div>
+
+                    <div class="column">
+                      <h5>Question 9 <span class="label label-default"></span></h5>
+                      <p>I tend to talk to a lot of different people at parties.<span class="label label-default"></span></p>
+                      <form class="form-inline">
+                        <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
+                        <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                          <option selected>Choose...</option>
+                          <option value="1">1 (Strongly Disagree)</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                      </div>
+
+                  <div class="column">
+                    <h5>Question 10 <span class="label label-default"></span></h5>
+                    <p>I value cooperation over competition.<span class="label label-default"></span></p>
+                    <form class="form-inline">
+                      <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
+                      <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                        <option selected="selected">Choose...</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                      </select>
+                    </div>
+
+      <button type="button" class="btn btn-primary btn-lg btn-block submit">Submit</button>
   </div>
 
 
@@ -38,4 +191,37 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   </body>
+
+  <script type="text/javascript">
+      // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+      // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+      // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
+      // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+      $(".submit").on("click", function(event) {
+        event.preventDefault();
+        // Here we grab the form elements
+        var newFriend = {
+          selected: $("#inlineFormCustomSelect").val().trim(),
+        };
+        console.log(newFriend);
+        // This line is the magic. It"s very similar to the standard ajax function we used.
+        // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+        // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+        // depending on if a tables is available or not.
+        $.post("/api/tables", newReservation,
+          function(data) {
+            // If a table is available... tell user they are booked.
+            if (data) {
+              alert("Data submitted");
+            }
+            // If a table is available... tell user they on the waiting list.
+            else {
+              alert("Sorry, data not submitted");
+            }
+            // Clear the form when submitting
+          });
+      });
+  </script>
+
+
 </html>

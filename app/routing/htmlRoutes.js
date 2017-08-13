@@ -1,23 +1,16 @@
-var express = require("express");
-var bodyParser = require("body-parser");
+
 var path = require('path');
 
-var app = express();
-
-
 // Creates a GET route to /survey which displays the survey page
-app.get('/survey', function(req, res) {
-  if (err)
-    {
-      throw err;
-    }
+module.exports = function(app) {
+  app.get('/survey', function(req, res)
+  {
+    res.sendFile(path.join(__dirname, "/../public/survey.html"));
+  });
 
-  res.render('survey');
-});
-
-// Import routes and give the server access to them.
-app.use(function(req, res){
-  res.render('/home');
-})
-
-// Has a default USE route that leads to home.html which displays the home page
+  // A default USE route that leads to home.html which displays the home page
+  app.use(function(req, res)
+  {
+    res.sendFile(path.join(__dirname, "/../public/home.html"))
+  });
+};
