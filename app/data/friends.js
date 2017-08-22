@@ -1,22 +1,6 @@
-// My JS goes here!
-
-// Determine the user's most compatible friend using the following as a guide:
-// Convert each user's result into a simple array of numbers (ex: [5, 1, 4, 4, 4, 2, 5, 4, 1])
-// With that done, compare the difference between the current user's scores against those from other users, question by question.
-// Add up the differences to calculate the totalDifference
-// Example:
-// User 1: [5, 4, 3, 2, 1, 2, 5, 4, 1]
-// User 2: [3, 2, 6, 4, 5, 1, 2, 3, 1]
-// Total difference: 2+1+2 = 5
-// Use the absolute value of the differences. No negative solutions. Ex: Your app should calculate both 5-3 and 3-5 as 2.
-// The closest match will be the user's most compatible friend.
-// Display the result as a modal pop-up.
-// The modal pop-up should display both the name and the picture of the closest match.
-
-// Friends data
 var possibleFriendsArray = [
   {
-    name:"Ahmed",
+    name:"Winnie the Pooh",
     photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
     scores:[
         5,
@@ -29,6 +13,54 @@ var possibleFriendsArray = [
         5,
         4,
         1
+      ]
+  },
+  {
+    name:"Piglet",
+    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    scores:[
+        5,
+        1,
+        1,
+        2,
+        5,
+        5,
+        3,
+        5,
+        2,
+        5
+      ]
+  },
+  {
+    name:"Tigger",
+    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    scores:[
+        5,
+        5,
+        4,
+        4,
+        3,
+        2,
+        5,
+        5,
+        2,
+        1
+      ]
+  },
+  {
+    name:"Eeyore",
+    photo:"http://media2.picsearch.com/is?gwp3_XbnPmjE2eBRDlOMQu6X9OcHB3UiVU1Icc1l2-o&height=255",
+    scores:[
+        2,
+        1,
+        2,
+        2,
+        3,
+        1,
+        5,
+        5,
+        5,
+        2
       ]
   }
 ];
